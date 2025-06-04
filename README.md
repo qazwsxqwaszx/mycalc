@@ -7,6 +7,6 @@
 
 ```bash
 pip install -r requirements.txt
-python -c "from mycalc import add; print(add(1, 2))"
+python -c "from mycalc import add, mul, sub, div; print(add(1, 2), mul(3, 4), sub(5, 1), div(8, 2))"
 pytest
-
+```
